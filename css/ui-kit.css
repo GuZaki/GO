@@ -1,0 +1,191 @@
+button:hover,
+button:focus,
+button:active {
+    transition-duration: 0.3s;
+}
+a:hover,
+a:focus,
+a:active {
+    transition-duration: 0.3s;
+}
+
+.legend-input:hover + label,
+.legend-input:focus + label {
+    transition-duration: 0.3s;
+}
+
+/*header*/
+.menu-list-item-link:hover {
+    color: var(--color-primary-1);
+}
+
+.header__menu-button:hover {
+    border: none;
+    background-color: var(--color-primary-2);
+}
+
+.header__menu-button:focus {
+    border: none;
+    background-color: var(--color-ui-kit-1);
+}
+
+.header__menu-button:active {
+    border: none;
+    background-color: var(--color-primary-2);
+}
+
+/*banner*/
+.banner-button:hover {
+    border: none;
+    background-color: var(--color-ui-kit-2);
+    box-shadow: 0 0 15px var(--color-ui-kit-2);
+}
+
+.banner-button:focus {
+    border: none;
+    background-color: var(--color-ui-kit-1);
+    box-shadow: 0 0 15px var(--color-ui-kit-1);
+}
+
+.banner-button:active {
+    border: none;
+    background-color: var(--color-primary-2);
+    box-shadow: 0 0 15px var(--color-primary-2);
+}
+
+    .banner-link-down:hover {
+        background: url("../images/down hover.svg") no-repeat;
+    }
+
+    .banner-link-down:focus {
+        border: 1px solid var(--color-primary-1);
+    }
+
+    .banner-link-down:active {
+        background: url("../images/down active.svg") no-repeat;
+        border: none;
+    }
+
+@media (max-width: 1024px) {
+    .banner-link-down:hover {
+        background: url("../images/down hover_1024.svg") no-repeat;
+    }
+
+    .banner-link-down:active {
+        background: url("../images/down active_1024.svg") no-repeat;
+        border: none;
+    }
+}
+
+/*wehave*/
+.wehave__wehave-list-item:hover {
+    transform: scale(1.1);
+    transition-duration: 2s;
+    box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.1);
+}
+
+/*book*/
+.book__fieldset-one label:hover {
+    border: 3px solid var(--color-ui-kit-1);
+    background-color: var(--color-ui-kit-3);
+}
+
+.legend-input:focus + label {
+    border: 3px solid var(--color-ui-kit-1);
+}
+
+.legend-input:checked + label {
+    background-color: var(--color-ui-kit-3);
+}
+
+input:focus {
+    border: 2px solid var(--color-primary-1);
+}
+
+select:focus {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    border: 2px solid var(--color-primary-1);
+}
+
+input[type=radio]:focus {
+    border: 1px solid var(--color-primary-1);
+}
+
+input[type=checkbox]:focus {
+    border: 1px solid var(--color-primary-1);
+}
+
+.book__button:hover {
+    border: 3px solid var(--color-ui-kit-1);
+    color: var(--color-ui-kit-1);
+    background-color: var(--color-ui-kit-3);
+}
+
+.book__button:focus {
+    border: none;
+    color: var(--color-ui-kit-1);
+    background-color: var(--color-ui-kit-3);
+}
+
+.book__button:active {
+    border: 3px solid var(--color-primary-2);
+}
+
+/*faq*/
+.open:hover:after{
+    background: url("../images/faq/open hover.svg") no-repeat;
+}
+
+.open:active:after{
+    background: url("../images/faq/open active.svg") no-repeat;
+}
+
+.open-purple:hover:after {
+    background: url("../images/faq/open-purple hove.svg") no-repeat;
+}
+
+.open-purple:active:after {
+    background: url("../images/faq/open-purple active.svg") no-repeat;
+}
+
+/*footer*/
+.contact-list-item:hover {
+    color: var(--color-primary-1);
+    transition-duration: 0.3s;
+}
+
+.svg-open-purple:hover {
+    background: url("../images/faq/open-purple hove.svg") no-repeat;
+    border: none;
+ }
+
+.svg-open:hover {
+    background: url("../images/faq/open hover.svg") no-repeat;
+    border: none;
+}
+
+.svg-open-purple:active {
+    background: url("../images/faq/open-purple active.svg") no-repeat;
+    border: none;
+}
+
+.icon-link:hover {
+    color: var(--color-ui-kit-3);
+}
+
+.icon-link:focus {
+    color: var(--color-ui-kit-3);
+    border: 1px solid var(--color-primary-1);
+}
+
+.icon-link:active {
+    color: var(--color-primary-1);
+    border: none;
+}
+
+.design-text-two a:hover {
+    color: var(--color-primary-1);
+}
+

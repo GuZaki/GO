@@ -1,0 +1,255 @@
+.section:nth-child(2) {
+    height: 808px;
+}
+
+.wehave {
+    max-width: 1180px;
+    height: 708px;
+    margin: 0 auto;
+}
+
+.subtitle {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0 0 40px 0;
+}
+
+.wehave__wehave-list {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    gap: 40px 20px;
+    position: relative;
+}
+
+.wehave__wehave-list-item {
+    height: 228px;
+    /*min-width: 380px;*/
+    flex: 1 1 30%;
+    
+}
+
+.wehave__wehave-list-item:nth-child(1) {
+    background: url("../images/we_have/VR.png") no-repeat;
+    width: 100wv;
+    height: 100wh;
+}
+
+.wehave__wehave-list-item:nth-child(2)  {
+    background: url("../images/we_have/Audio.png") no-repeat;
+    margin-top: 70px;
+}
+
+.wehave__wehave-list-item:nth-child(3)  {
+    background: url("../images/we_have/Karaoke.png") no-repeat;
+}
+
+.wehave__wehave-list-item:nth-child(4) {
+    background: url("../images/we_have/Games.png") no-repeat;
+    margin-top: -70px;
+}
+
+.wehave__wehave-list-item:nth-child(5)  {
+    background: url("../images/we_have/Netflix.png") no-repeat;
+}
+
+.wehave__wehave-list-item:nth-child(6)  {
+    background: url("../images/we_have/PlayStation.png") no-repeat;
+    margin-top: -70px;
+}
+
+.wehave-item {
+    font-size: 20px;
+    line-height: 28px;
+    padding: 166px 0 0 40px;
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    .section:nth-child(2) {
+        max-width: 1024px;
+        height: 627px;
+        padding-bottom: 35px;
+    }
+
+    .wehave {
+        max-width: 904px;
+        height: 542px;
+    }
+
+    .subtitle {
+        font-size: 30px;
+        line-height: 40px;
+        margin: 0 0 36px 0;
+    }
+
+    .wehave__wehave-list {
+        gap: 30px 21px;
+    }
+
+    .wehave__wehave-list-item {
+        height: 172px;
+        width: calc(100% - 42px);
+        position: relative;
+    }
+
+    .wehave__wehave-list-item:nth-child(1) {
+        background: url("../images/we_have/VR_1024.png") no-repeat;
+    }
+
+    .wehave__wehave-list-item:nth-child(2)  {
+        background: url("../images/we_have/Audio_1024.png") no-repeat;
+        margin-top: 50px;
+    }
+
+    .wehave__wehave-list-item:nth-child(3)  {
+        background: url("../images/we_have/Karaoke_1024.png") no-repeat;
+    }
+
+    .wehave__wehave-list-item:nth-child(4) {
+        background: url("../images/we_have/Games_1024.png") no-repeat;
+        margin-top: -50px;
+        
+    }
+
+    .wehave__wehave-list-item:nth-child(5)  {
+        background: url("../images/we_have/Netflix_1024.png") no-repeat;
+    }
+
+    .wehave__wehave-list-item:nth-child(6)  {
+        background: url("../images/we_have/PlayStation_1024.png") no-repeat;
+        margin-top: -50px;
+    }
+
+    .wehave-item {
+        position: absolute;
+        bottom: 30px;
+        left: 20px;
+        font-size: 20px;
+        line-height: 28px;
+        padding: 0;
+        /*padding: 114px 0 0 20px;*/
+    }
+
+    @media (max-width: 768px) {
+        .section:nth-child(2) {
+            max-width: 768px;
+            height: 824px;
+            padding-bottom: 30px;
+        }
+
+        .wehave {
+            max-width: 688px;
+            height: 742px;
+        }
+
+        .subtitle {
+            font-size: 24px;
+            line-height: 36px;
+            margin: 0 0 30px 0;
+        }
+
+        .wehave__wehave-list {
+            gap: 20px;
+        }
+
+        .wehave__wehave-list-item {
+            height: 200px;
+            width: 334px;
+            flex: 45%;
+
+        }
+
+        .wehave__wehave-list-item:nth-child(1) {
+            background: url("../images/we_have/VR_768.png") no-repeat;
+        }
+
+        .wehave__wehave-list-item:nth-child(2) {
+            background: url("../images/we_have/Audio_768.png") no-repeat;
+            margin-top: 0;
+        }
+
+        .wehave__wehave-list-item:nth-child(3) {
+            background: url("../images/we_have/Karaoke_768.png") no-repeat;
+        }
+
+        .wehave__wehave-list-item:nth-child(4) {
+            background: url("../images/we_have/Games_768.png") no-repeat;
+            margin-top: 0;
+        }
+
+        .wehave__wehave-list-item:nth-child(5) {
+            background: url("../images/we_have/Netflix_768.png") no-repeat;
+        }
+
+        .wehave__wehave-list-item:nth-child(6) {
+            background: url("../images/we_have/PlayStation_768.png") no-repeat;
+            margin-top: 0;
+        }
+
+        .wehave-item {
+            left: 30px;
+        }
+    }
+
+    @media (max-width: 320px) {
+        .section:nth-child(2) {
+            max-width: 320px;
+            height: 330px;
+            padding-bottom: 15px;
+            padding-top: 16px;
+        }
+
+        .wehave {
+            max-width: 280px;
+            height: 296px;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            line-height: 18px;
+            margin: 0 0 15px 0;
+        }
+
+        .wehave__wehave-list {
+            gap: 10px;
+        }
+
+        .wehave__wehave-list-item {
+            height: 75px;
+            max-width: 135px;
+        }
+
+        .wehave__wehave-list-item:nth-child(1) {
+            background: url("../images/we_have/VR_320.png") no-repeat;
+        }
+
+        .wehave__wehave-list-item:nth-child(2) {
+            background: url("../images/we_have/Audio_320.png") no-repeat;
+        }
+
+        .wehave__wehave-list-item:nth-child(3) {
+            background: url("../images/we_have/Karaoke_320.png") no-repeat;
+        }
+
+        .wehave__wehave-list-item:nth-child(4) {
+            background: url("../images/we_have/Games_320.png") no-repeat;
+        }
+
+        .wehave__wehave-list-item:nth-child(5) {
+            background: url("../images/we_have/Netflix_320.png") no-repeat;
+        }
+
+        .wehave__wehave-list-item:nth-child(6) {
+            background: url("../images/we_have/PlayStation_320.png") no-repeat;
+        }
+
+        .wehave-item {
+            font-size: 10px;
+            line-height: 14px;
+            padding: 30px 0 0 10px;
+        }
+    }
+}

@@ -1,0 +1,99 @@
+.faq {
+    max-width: 1180px;
+}
+
+.faq-link {
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    right: 60px;
+    top: 20px;
+}
+
+.faq-item {
+    background-color: var(--text-color);
+    color: var(--faq-item-text-color);
+    font-weight: 700;
+    font-size: 24px;
+    padding: 30px 70px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.faq-item:nth-last-child(1) {
+    margin-bottom: 0;
+}
+
+.faq-item:nth-child(even) {
+    background-color: var(--color-primary-3);
+    color: var(--text-color);
+}
+
+.faq-item:after {
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    right: 60px;
+    top: 20px;
+}
+
+.open:after {
+    content: url("../images/faq/open2.svg");
+}
+
+.open-purple:after {
+    content: url("../images/faq/open-purple.svg");
+}
+
+@media (max-width: 1024px) {
+    .section:nth-child(5) {
+        max-width: 1024px;
+        height: 467px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .faq {
+        max-width: 904px;
+    }
+    
+    .faq-link {
+        height: 45px;
+        width: 45px;
+        right: 60px;
+        top: 20px;
+    }
+    
+    .faq-item {
+        background-color: var(--text-color);
+        color: var(--faq-item-text-color);
+        font-size: 20px;
+        line-height: 24px;
+        padding: 30px 70px;
+        margin-bottom: 20px;
+    }
+    
+    .faq-item:nth-last-child(1) {
+        margin-bottom: 0;
+    }
+    
+    .faq-item:nth-child(even) {
+        background-color: var(--color-primary-3);
+        color: var(--text-color);
+    }
+    
+    .faq-item:after {
+        display: inline-block;
+        height: 45px;
+        width: 45px;
+        position: absolute;
+        right: 60px;
+        top: 20px;
+    }
+    
+    .open:after {
+        content: url("../images/faq/open-purple.svg");
+    }
+    
+}

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xlm" href="images/icon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Проект "GO"</title>
+</head>
+
+<body>
+    <header class="header-section">
+            <div class="container header">
+                <img class="logo" src="images/logo.svg" alt="Логотип">
+
+                <nav class="header__menu">
+                    <ul class="menu-list">
+                        <li class="menu-list-item"><a class="menu-list-item-link" href="#halls">Залы</a></li>
+                        <li class="menu-list-item"><a class="menu-list-item-link" href="#about">О нас</a></li>
+                        <li class="menu-list-item"><a class="menu-list-item-link" href="#booking">Бронь</a></li>
+                        <li class="menu-list-item"><a class="menu-list-item-link" href="#feedback">Отзывы</a></li>
+                        <li class="menu-list-item"><a class="menu-list-item-link" href="#contacts">Контакты</a></li>
+                    </ul>
+                </nav>
+
+                <button class="header__menu-button" type="submit">Заказать звонок</button>
+            </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container banner">
+                <div class="banner-text">
+                    <h1 class="banner-text__title">GAME OVER</h1>
+                    <p class="banner-text__text">Новый формат игр и отдыха</p>
+                </div>
+
+                <div class="banner-blocks">
+                    <div class="banner-block-one">
+                        <p class="block-one-title">4</p>
+                        <p class="block-text">Тематических зала</p>
+                    </div>
+                    <div class="banner-block-two">
+                        <p class="block-two-title">new</p>
+                        <p class="block-text">Новейшая аппаратура</p>
+                    </div>
+                </div>
+
+                <div class="banner-links">
+                    <button class="banner-button" type="submit">Забронировать</button>
+                    <a class="banner-link-down" href="#wehave"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div id="wehave" class="container wehave">
+                <h2 class="subtitle">У нас есть все для классного<br> отдыха с друзьями!</h2>
+                <ul class="wehave__wehave-list">
+                    <li class="wehave__wehave-list-item"><p class="wehave-item">VR очки</p></li>
+                    <li class="wehave__wehave-list-item"><p class="wehave-item">Аудио-система 5.1<br>
+                        с отличным звуком</p></li>
+                    <li class="wehave__wehave-list-item"><p class="wehave-item">Караоке (4 микрофона)</p></li>
+                    <li class="wehave__wehave-list-item"><p class="wehave-item">Настольные игры</p></li>
+                    <li class="wehave__wehave-list-item"><p class="wehave-item">Кино сервисы
+                        Netflix, IVI,<br> MegoGo, КиноПоиск, Okko</p></li>
+                    <li class="wehave__wehave-list-item"><p class="wehave-item">РlаyStаtiоn 5</p></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <div id="halls" class="container halls">
+                <h2 class="subtitle">наши залы</h2>
+                <ul class="halls__halls-list">
+                    <li class="halls__halls-list-item"><p class="hall">80’s vibes</p></li>
+                    <li class="halls__halls-list-item"><p class="hall">Star wars</p></li>
+                    <li class="halls__halls-list-item"><p class="hall">wild west</p></li>
+                    <li class="halls__halls-list-item"><p class="hall">neon style</p></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <div id="booking" class="container book">
+                <h2 class="subtitle">Забронировать зал просто</h2>
+    
+                <form class="book__form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
+                    <fieldset class="book__fieldset book__fieldset-one">
+                        <legend class="book__legend">Выбери зал</legend>
+                        <input class="legend-input" type="radio" name="hall" value="80`s vibes" id="hall_one">
+                        <label for="hall_one">80`S VIBES</label>
+        
+                        <input class="legend-input" type="radio" name="hall" value="Star wars" id="hall_two">
+                        <label for="hall_two">STAR WARS</label>
+        
+                        <input class="legend-input" type="radio" name="hall" value="Wild west" id="hall_three">
+                        <label for="hall_three">WILD WEST</label>
+        
+                        <input class="legend-input" type="radio" name="hall" value="Neon style" id="hall_four">
+                        <label for="hall_four">NEON STYLE</label>
+                    </fieldset>
+        
+                    <fieldset class="book__fieldset book__fieldset-two">
+                        <legend class="book__legend">Собери набор развлечений</legend>
+                        <fieldset class="book__fieldset book__fieldset-two-items">
+                            <legend class="book__legend legend-item">Приставка</legend>
+                            <div class="fieldset-two-item-one">
+                                <input type="radio" name="console" value="PlayStation 5" id="console_one">
+                                <label for="console_one">PlayStation 5</label>
+                            </div>
+                            <div class="fieldset-two-item-one">
+                                <input type="radio" name="console" value="Sega Mega Drive" id="console_two">
+                                <label for="console_two">Sega Mega Drive</label>
+                            </div>
+                            <div class="fieldset-two-item-one">
+                                <input type="radio" name="console" value="X-box One S" id="console_three">
+                                <label for="console_three">X-box One S</label>
+                            </div>
+                            <div class="fieldset-two-item-one">
+                                <input type="radio" name="console" value="Dendy" id="console_four">
+                                <label for="console_four">Dendy</label>
+                            </div>
+                        </fieldset>
+        
+                        <fieldset class="book__fieldset book__fieldset-two-items">
+                            <legend class="book__legend legend-item">Настольные игры</legend>
+                            <div class="fieldset-two-item">
+                                <input type="checkbox" name="game" value="Jenga" id="game_one">
+                                <label for="game_one">Jenga</label>
+                            </div>
+                            <div class="fieldset-two-item">
+                                <input type="checkbox" name="game" value="Monopoly" id="game_two">
+                                <label for="game_two">Monopoly</label>
+                            </div>
+                            <div class="fieldset-two-item">
+                                <input type="checkbox" name="game" value="Manchiki" id="game_three">
+                                <label for="game_three">Манчики</label>
+                            </div>
+                            <div class="fieldset-two-item">
+                                <input type="checkbox" name="game" value="Alias" id="game_four">
+                                <label for="game_four">Alias</label>
+                            </div>
+                        </fieldset>
+        
+                        <fieldset class="book__fieldset book__fieldset-two-items">
+                            <legend class="book__legend legend-item">Дополнительно</legend>
+                            <div class="fieldset-two-item">
+                                <input type="checkbox" name="addition" value="Karaoke" id="addition_one">
+                                <label for="addition_one">Караоке</label>
+                            </div>
+                            <div class="fieldset-two-item">
+                                <input type="checkbox" name="addition" value="VR" id="addition_two">
+                                <label for="addition_two">VR очки</label>
+                            </div>
+                        </fieldset>
+                    </fieldset>
+        
+                    <fieldset class="book__fieldset book__fieldset-three">
+                        <legend class="book__legend book__legend-last">Выбери дату и время</legend>
+                        <fieldset class="book__fieldset book__fieldset-three-items">
+                            <div class="fieldset-three-item-two">
+                                <label class="visually-hidden" for="date">Дата</label>
+                                <input class="fieldset-three-item-input-one" id="date" type="date" placeholder="Дата" name="date" required>
+                                <label class="visually-hidden" for="time">Время</label>
+                                <input class="fieldset-three-item-input-two" id="time" type="time" name="time" placeholder="Время" required>
+                            </div>
+                            <div class="fieldset-three-item item-select">
+                                <select>
+                                    <option class="pop" value="" disabled selected hidden>Сколько человек</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                </select>
+                            </div>
+                        </fieldset>
+        
+                        <fieldset class="book__fieldset book__fieldset-three-items">
+                            <div class="fieldset-three-item">
+                                <label>Имя<br>
+                                    <input class="fieldset-three-item-input-four" type="text" name="name" required>
+                                </label>
+                            </div>
+                            <div class="fieldset-three-item">
+                                <label>Фамилия<br>
+                                    <input class="fieldset-three-item-input-five" type="text" name="surname" required>
+                                </label>
+                            </div>
+                        </fieldset>
+        
+                        <fieldset class="book__fieldset book__fieldset-three-items">
+                            <div class="fieldset-three-item">
+                                <label>Телефон<br>
+                                    <input class="fieldset-three-item-input-six" type="tel" name="phone" required title="+7(___)-___-__-__" pattern="^\+?[7-8]-?{0-9}{3}-?{0-9}{3}-?{0-9}{2}-?{0-9}{2}$">
+                                </label>
+                            </div>
+                            <div class="fieldset-three-item">
+                                <label>E-mail<br>
+                                    <input class="fieldset-three-item-input-seven" type="email" name="email" required>
+                                </label>
+                            </div>
+                        </fieldset>
+                    </fieldset>
+        
+                    <button class="book__button" type="submit">Забронировать</button>
+                </form>
+            </div>  
+        </section>
+
+        <section class="section section-about">
+            <h2 class="subtitle">о нас</h2>
+            <div id="about" class="container about">
+            <div class="about__container-images"></div>
+                    
+                        <div class="about__container-text">
+                            <p>Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности в центральной части города.</p>
+                            <p>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
+                        </div>
+
+                        <div class="about__container-block">
+                            <blockquote class="about__container-blockquote">
+                                <p class="about__container-quote">GAME OVER —<br>это место незабываемых впечатлений</p>
+                                <div class="about__container-cite">
+                                    <div class="about__cite">
+                                        <cite class="about__cite-text">Аркадий Абакшин, создатель игровой территории GAME OVER</cite>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        
+                    </div>
+            </div>
+        </section>
+
+        <!--<section class="section">
+            <div id="feedback" class="container feedback">
+                <h2 class="subtitle">Отзывы посетителей</h2>
+                <ul class="feedback__container-list">
+                    <li class="feedback__list-item-one">
+                        <figure>
+                            <div class="list-item-img img-one"></div>
+                            <p class="feedback__text">Отмечали здесь день рождения с компанией друзей, все было
+                                очень круто! VR очки это просто бомба, никогда еще я не был в таком полном игровом погружении.
+                                Сервис на высоте!</p>
+                            <figcaption class="clear">Макс Самойлов</figcaption>
+                        </figure>
+                    </li>
+                    <li class="feedback__list-item-two">
+                        <figure>
+                            <div class="list-item-img img-two"></div>
+                            <p class="feedback__text">Были в комнате Дикий Запад, пели в караоке под Шакиру,
+                                отличный получился корпоратив! У нас в городе больше нет подобных заведений</p>
+                            <figcaption class="clear">Оксана Григорьева</figcaption>
+                        </figure>
+                    </li>
+                    <li class="feedback__list-item-three">
+                        <figure>
+                            <div class="list-item-img img-three"></div>
+                            <p class="feedback__text">Немного подвисала игра в VR очках, а так все норм. Крутое
+                                оформление комнаты в стиле звездных войн, попал в атмосферу космоса</p>
+                            <figcaption class="clear">Никита Ященко</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container faq">
+                <h2 class="subtitle">Частые вопросы</h2>
+                <ul class="faq__faq-list">
+                    <li class="faq-item open-purple">Можно ли забронировать комнату онлайн?
+                        <a class="faq-link" href="#"></a>
+                    </li>
+                    <li class="faq-item open">Могут ли мне вернуть деньги за бронь?
+                        <a class="faq-link" href="#"></a>
+                    </li>
+                    <li class="faq-item open-purple">Какая комната самая популярная?
+                        <a class="faq-link" href="#"></a>
+                    </li>
+                    <li class="faq-item open">Как получить VIP карту?
+                        <a class="faq-link" href="#"></a>
+                    </li>
+                    <li class="faq-item open-purple">Возможны какие-либо скидки?
+                        <a class="faq-link" href="#"></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+   <footer>
+        <section class="footer-section">
+            <div id="contacts" class="container footer">
+                <h2 class="subtitle">контакты</h2>
+                <div class="footer__contact">
+                    <div>
+                        <ul class="footer__contact-list">
+                            <li class="contact-list-item-one">г. Москва<br> ул. Аквамарина, 16</li>
+                            <li class="contact-list-item contact-list-item-two">
+                                <a href="tel:89509302893">8 (950) 930 - 28 - 93</a>
+                            </li>
+                            <li class="contact-list-item contact-list-item-three">
+                                <a href="mailto:GameOver@gmail.com">GameOver@gmail.com</a>
+                            </li>
+
+                        </ul>
+                        <ul class="footer__social-icons">
+                        <li>
+                            <a class="icon-link" href="https://instagram.com" target="_blanck">
+                                <svg width="50" height="50" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M32.5002 25C32.5002 26.9891 31.71 28.8968 30.3035 30.3033C28.8969 31.7098 26.9893 32.5 25.0002 32.5C23.011 32.5 21.1034 31.7098 19.6969 30.3033C18.2903 28.8968 17.5002 26.9891 17.5002 25C17.5002 24.5725 17.5452 24.155 17.6227 23.75H15.0002V33.7425C15.0002 34.4375 15.5627 35 16.2577 35H33.7452C34.0782 34.9993 34.3974 34.8666 34.6327 34.6308C34.868 34.395 35.0002 34.0756 35.0002 33.7425V23.75H32.3777C32.4552 24.155 32.5002 24.5725 32.5002 25V25ZM25.0002 30C25.6569 29.9998 26.3072 29.8703 26.914 29.6188C27.5207 29.3673 28.0719 28.9988 28.5362 28.5343C29.0005 28.0698 29.3688 27.5183 29.6199 26.9115C29.8711 26.3046 30.0003 25.6543 30.0002 24.9975C30 24.3407 29.8705 23.6904 29.619 23.0837C29.3675 22.477 28.999 21.9257 28.5344 21.4614C28.0699 20.9972 27.5185 20.6289 26.9116 20.3777C26.3048 20.1265 25.6544 19.9973 24.9977 19.9975C23.6712 19.9978 22.3993 20.5251 21.4616 21.4632C20.5239 22.4014 19.9973 23.6736 19.9977 25C19.998 26.3264 20.5252 27.5984 21.4634 28.5361C22.4015 29.4737 23.6737 30.0003 25.0002 30V30ZM31.0002 19.75H33.9977C34.1968 19.75 34.3878 19.6711 34.5289 19.5305C34.6699 19.3899 34.7495 19.1991 34.7502 19V16.0025C34.7502 15.8029 34.6709 15.6115 34.5298 15.4704C34.3886 15.3293 34.1972 15.25 33.9977 15.25H31.0002C30.8006 15.25 30.6092 15.3293 30.4681 15.4704C30.3269 15.6115 30.2477 15.8029 30.2477 16.0025V19C30.2502 19.4125 30.5877 19.75 31.0002 19.75V19.75ZM25.0002 1C18.635 1 12.5305 3.52856 8.02959 8.02944C3.52872 12.5303 1.00015 18.6348 1.00015 25C1.00015 31.3652 3.52872 37.4697 8.02959 41.9706C12.5305 46.4714 18.635 49 25.0002 49C28.1519 49 31.2727 48.3792 34.1846 47.1731C37.0964 45.967 39.7421 44.1992 41.9707 41.9706C44.1993 39.742 45.9672 37.0962 47.1733 34.1844C48.3794 31.2726 49.0002 28.1517 49.0002 25C49.0002 21.8483 48.3794 18.7274 47.1733 15.8156C45.9672 12.9038 44.1993 10.258 41.9707 8.02944C39.7421 5.80083 37.0964 4.033 34.1846 2.82689C31.2727 1.62078 28.1519 1 25.0002 1V1ZM37.5002 34.7225C37.5002 36.25 36.2502 37.5 34.7227 37.5H15.2777C13.7502 37.5 12.5002 36.25 12.5002 34.7225V15.2775C12.5002 13.75 13.7502 12.5 15.2777 12.5H34.7227C36.2502 12.5 37.5002 13.75 37.5002 15.2775V34.7225V34.7225Z"
+                                          fill="currentColor"/>
+                                </svg>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="icon-link" href="https://vk.com" target="_blanck">
+                                <svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M24.0001 0C10.7451 0 0.00012207 10.745 0.00012207 24C0.00012207 37.255 10.7451 48 24.0001 48C37.2551 48 48.0001 37.255 48.0001 24C48.0001 10.745 37.2551 0 24.0001 0ZM33.2301 27.0775C33.2301 27.0775 35.3526 29.1725 35.8751 30.145C35.8901 30.165 35.8976 30.185 35.9026 30.195C36.1151 30.5525 36.1651 30.83 36.0601 31.0375C35.8851 31.3825 35.2851 31.5525 35.0801 31.5675H31.3301C31.0701 31.5675 30.5251 31.5 29.8651 31.045C29.3576 30.69 28.8576 30.1075 28.3701 29.54C27.6426 28.695 27.0126 27.965 26.3776 27.965C26.297 27.9649 26.2168 27.9775 26.1401 28.0025C25.6601 28.1575 25.0451 28.8425 25.0451 30.6675C25.0451 31.2375 24.5951 31.565 24.2776 31.565H22.5601C21.9751 31.565 18.9276 31.36 16.2276 28.5125C12.9226 25.025 9.94762 18.03 9.92262 17.965C9.73512 17.5125 10.1226 17.27 10.5451 17.27H14.3326C14.8376 17.27 15.0026 17.5775 15.1176 17.85C15.2526 18.1675 15.7476 19.43 16.5601 20.85C17.8776 23.165 18.6851 24.105 19.3326 24.105C19.454 24.1036 19.5733 24.0727 19.6801 24.015C20.5251 23.545 20.3676 20.5325 20.3301 19.9075C20.3301 19.79 20.3276 18.56 19.8951 17.97C19.5851 17.5425 19.0576 17.38 18.7376 17.32C18.8671 17.1413 19.0378 16.9964 19.2351 16.8975C19.8151 16.6075 20.8601 16.565 21.8976 16.565H22.4751C23.6001 16.58 23.8901 16.6525 24.2976 16.755C25.1226 16.9525 25.1401 17.485 25.0676 19.3075C25.0451 19.825 25.0226 20.41 25.0226 21.1C25.0226 21.25 25.0151 21.41 25.0151 21.58C24.9901 22.5075 24.9601 23.56 25.6151 23.9925C25.7006 24.0461 25.7993 24.0746 25.9001 24.075C26.1276 24.075 26.8126 24.075 28.6676 20.8925C29.2397 19.8681 29.7369 18.8037 30.1551 17.7075C30.1926 17.6425 30.3026 17.4425 30.4326 17.365C30.5286 17.3161 30.6349 17.2912 30.7426 17.2925H35.1951C35.6801 17.2925 36.0126 17.365 36.0751 17.5525C36.1851 17.85 36.0551 18.7575 34.0226 21.51L33.1151 22.7075C31.2726 25.1225 31.2726 25.245 33.2301 27.0775Z"
+                                          fill="currentColor"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="icon-link" href="https://facebook.com" target="_blanck">
+                                <svg width="50" height="50" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.00012207 25.1396C0.00012207 37.5687 9.02721 47.9042 20.8335 50V31.9437H14.5835V25H20.8335V19.4438C20.8335 13.1937 24.8605 9.72292 30.5564 9.72292C32.3605 9.72292 34.3064 10 36.1105 10.2771V16.6667H32.9168C29.8605 16.6667 29.1668 18.1937 29.1668 20.1396V25H35.8335L34.723 31.9437H29.1668V50C40.973 47.9042 50.0001 37.5708 50.0001 25.1396C50.0001 11.3125 38.7501 0 25.0001 0C11.2501 0 0.00012207 11.3125 0.00012207 25.1396Z"
+                                          fill="currentColor"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="icon-link" href="https://web.telegram.org" target="_blanck">
+                                <svg width="50" height="50" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M50.0001 25C50.0001 31.6304 47.3662 37.9893 42.6778 42.6777C37.9894 47.3661 31.6305 50 25.0001 50C18.3697 50 12.0109 47.3661 7.32245 42.6777C2.63404 37.9893 0.00012207 31.6304 0.00012207 25C0.00012207 18.3696 2.63404 12.0107 7.32245 7.32233C12.0109 2.63392 18.3697 0 25.0001 0C31.6305 0 37.9894 2.63392 42.6778 7.32233C47.3662 12.0107 50.0001 18.3696 50.0001 25ZM25.897 18.4563C23.4657 19.4688 18.6032 21.5625 11.3157 24.7375C10.1345 25.2062 9.51262 25.6687 9.45637 26.1187C9.36262 26.8781 10.3157 27.1781 11.6126 27.5875L12.1595 27.7594C13.4345 28.175 15.1532 28.6594 16.0439 28.6781C16.8564 28.6969 17.7595 28.3656 18.7564 27.6781C25.5657 23.0813 29.0814 20.7594 29.3001 20.7094C29.4564 20.6719 29.6751 20.6281 29.8189 20.7594C29.9657 20.8875 29.9501 21.1344 29.9345 21.2C29.8407 21.6031 26.1001 25.0781 24.1657 26.8781C23.5626 27.4406 23.1345 27.8375 23.047 27.9281C22.8543 28.125 22.6585 28.3188 22.4595 28.5094C21.272 29.6531 20.3845 30.5094 22.5064 31.9094C23.5282 32.5844 24.347 33.1375 25.1626 33.6937C26.0501 34.3 26.9376 34.9031 28.0876 35.6594C28.3782 35.8469 28.6595 36.05 28.9314 36.2437C29.9657 36.9812 30.9001 37.6437 32.047 37.5375C32.7157 37.475 33.4064 36.85 33.7564 34.975C34.5845 30.5469 36.2126 20.9562 36.5876 17.0031C36.6105 16.6745 36.5969 16.3444 36.547 16.0187C36.5176 15.756 36.3904 15.5139 36.1907 15.3406C35.9064 15.1443 35.5674 15.0427 35.222 15.05C34.2845 15.0656 32.8376 15.5688 25.897 18.4563Z"
+                                          fill="currentColor"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                    </div>
+
+                    <img class="footer-image" src="images/map.png" alt="">
+                </div>
+
+                <div class="footer__design">
+                    <p class="design-text design-text-one">© Game Over, 2022</p>
+                    <p class="design-text design-text-two">Design by Anastasia Ilina<br><a href="mailto:ilina9825@gmail.com">ilina9825@gmail.com</a></p>
+                </div>
+
+            </div>
+        </section>
+    </footer> -->
+    </main>
+</body>
+</html>

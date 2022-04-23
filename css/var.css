@@ -1,0 +1,18 @@
+:root {
+    --text-color: #ffffff;
+    --text-color-2: #000000;
+    --background-color: #1B1A1B;
+    --faq-item-text-color: #1C1A1A;
+
+    --color-primary-1: #CD06FF;
+    --color-primary-2: #6C0287;
+    --color-primary-3: #440F51;
+
+    --color-ui-kit-1: #640AA3;
+    --color-ui-kit-2: #840AA3;
+    --color-ui-kit-3: #EADEED;
+
+    --cart-count: 4; /*- количество карточек*/
+    --gap: 60px;  /*- разрыв*/
+}
+

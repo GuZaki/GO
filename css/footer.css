@@ -1,0 +1,99 @@
+.footer-dection {
+    height: 649px;
+    background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
+}
+
+.footer {
+    width: 1180px;
+    height: 549px;
+}
+
+.footer__contact {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 120px;
+    margin-bottom: 146px;
+}
+
+.footer-image {
+    width: 680px;
+    height: 274px;
+    align-self: baseline;
+}
+
+.footer__contact-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0 0 35px 0;
+}
+
+.contact-list-item-one {
+    height: 61px;
+    width: 380px;
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 50px;
+    background: url("../images/contacts/location.svg") no-repeat left;
+    background-size: 32px 32px;
+    margin-bottom: 36px;
+}
+
+.contact-list-item-two {
+    height: 32px;
+    width: 380px;
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 50px;
+    background: url("../images/contacts/bx_bxs-phone-call.svg") no-repeat;
+    background-size: 32px 32px;
+    margin-bottom: 11px;
+}
+
+.contact-list-item-three {
+    height: 32px;
+    width: 380px;
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 50px;
+    background: url("../images/contacts/envelope.svg") no-repeat left;
+    background-size: 32px 32px;
+}
+
+
+.footer__social-icons {
+    width: 280px;
+    height: 60px;
+    padding-left: 0;
+    display: inline-flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    order: 1;
+}
+
+.icon-link {
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+
+.footer__design {
+    display: flex;
+    justify-content: space-between;
+    height: 38px;
+}
+
+.design-text {
+    font-size: 14px;
+    font-style: normal;
+}
+
+.design-text-two {
+    line-height: 1.5;
+    text-align: right;
+}
+
+.contact-list-item-three {
+    align-self: flex-end;
+    flex-basis: 70%;
+}
